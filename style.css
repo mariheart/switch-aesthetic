@@ -1,0 +1,137 @@
+body, html {
+    background-image: url("https://wallpaperaccess.com/full/655045.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*@keyframes joycon {
+    0% {transform: rotate(0deg)};
+    50% {transform: rotate(360deg)};
+    100% {transform: rotate(0deg)};
+} */
+
+.red {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    height: 1080px;
+    width: 20px;
+    background-color: rgb(255, 117, 117);
+}
+
+.blu {
+    position: absolute;
+    right: 0;
+    top: 500px;
+    height: 1080px;
+    width: 20px;
+    background-color: rgb(108, 184, 255);
+
+}
+
+.switch_red {
+    position: absolute;
+    left: 70;
+    top: 20;
+}
+
+.switch_blu {
+    position: absolute;
+    right: 70;
+    top: 20;
+}
+
+.bob {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin: 20 10px 20 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel p {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.carousel img {
+    height: 400px;
+    width: 100%;
+    object-fit: scale-down;
+    filter: contrast(120%);
+}
+
+
+.playlist {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.switch_red_two {
+    position: absolute;
+    left: 70;
+    top: 1620;
+    margin-bottom: 20px;
+}
+
+.switch_blu_two {
+    position: absolute;
+    right: 70;
+    top: 1620;
+    margin-bottom: 20px;
+}
+
+.bob_two {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 45px;
+}
+
+
+.switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+
+
+.switch img {
+    align-items: stretch;
+
+}
+
+.switch_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+    margin-top: 30px;
+}
+
+.switch_two img {
+    align-items: stretch;
+}
